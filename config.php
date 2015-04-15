@@ -1,12 +1,12 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://10.0.0.92/v2/lcl/');
-define('HTTP_CATALOG', 'http://10.0.0.92/v2/');
-define('HTTP_HELP', 'http://www.TroyContainerLine.com/wiki/index.php/WebApplication/');
+define('HTTP_SERVER', 'http://www.example.com/webapp/');
+define('HTTP_CATALOG', 'http://www.example.com/');
+define('HTTP_HELP', 'http://www.exmaple.com/wiki/index.php/WebApplication/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://10.0.0.92/v2/lcl/');
-define('HTTPS_CATALOG', 'http://10.0.0.92/v2/');
+define('HTTPS_SERVER', 'https://www.example.com/webapp/');
+define('HTTPS_CATALOG', 'https://www.example.com/');
 
 // DIR
 define('DIR_APPLICATION', '/usr/share/troy/Troyv2/lcl/');
@@ -26,10 +26,10 @@ define('DIR_REPORTS', '/usr/share/troy/Troyv2/reports/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'troycontainerline.com');
-define('DB_USERNAME', 'troyweb1');
-define('DB_PASSWORD', 'Troyweb1');
-define('DB_DATABASE', 'troyv2');
-define('DB_PREFIX', 'troy_');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'log');
+define('DB_PASSWORD', 'mypassword');
+define('DB_DATABASE', 'logistics');
+define('DB_PREFIX', 'log_');
 define('DB_PREFIX_APP', 'lcl_');
 
